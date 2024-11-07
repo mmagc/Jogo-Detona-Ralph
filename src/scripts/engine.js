@@ -73,7 +73,7 @@ function addListenerHitBox() {
             } else if (square.id !== state.values.hitPosition) {
                 state.values.chances--;
                 state.view.lives.textContent = state.values.chances;
-                playSound("hit");
+                playSound("wrong");
             }
         });
     });
